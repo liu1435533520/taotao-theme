@@ -1,0 +1,711 @@
+{
+  "type": "dark",
+  "name": "Electron Color Theme",
+  "colors": {
+    "tab.inactiveBackground": "#393939", // 未选中的选项卡
+    "tab.border": "#2c2c2c", // 用于将选项卡彼此分隔开的边框。选项卡是编辑器区域中编辑器的容器。可在一个编辑器组中打开多个选项卡。可以存在多个编辑器组。
+    "tab.inactiveForeground": "#ccccc7", // 活动组中非活动选项卡的前景色。在编辑器区域，选项卡是编辑器的容器。可在一个编辑器组中打开多个选项卡。可以有多个编辑器组。
+    "tab.lastPinnedBorder": "#414339", // 用于将固定的选项卡与其他选项卡隔开的边框。选项卡是编辑器区域中编辑器的容器。可在一个编辑器组中打开多个选项卡。可以有多个编辑器组。
+    "tab.activeBorder": "#2186ee", //活动选项卡底部的边框。选项卡是编辑器区域中编辑器的容器。可在一个编辑器组中打开多个选项卡。可以存在多个编辑器组。
+    "tab.activeBackground": "#2c2c2c", // 选中的背景色
+    "tab.activeForeground": "#e7e2e2", // 关闭按钮颜色
+    "tab.unfocusedHoverBackground": "#2c2c2c", // 鼠标移入后的背景色
+    "editor.background": "#2c2c2c", // 编辑器背景色
+    "editor.foreground": "#eeffff", // 编辑器默认前景色
+    "editor.lineHighlightBackground": "#494545", // 光标所在行高亮内容的背景颜色。
+    "panelTitle.activeForeground": "#eaeff3", // 活动面板的标题颜色。面板显示在编辑器区域下方，并包含输出和集成终端等视图。
+    "panelTitle.activeBorder": "#2186ee", // 活动面板标题的边框颜色。面板显示在编辑器区域下方，并包含输出和集成终端等视图。
+    "panelTitle.inactiveForeground": "#ababab", // 非活动面板的标题颜色。面板显示在编辑器区域下方，并包含输出和集成终端等视图。
+    "menu.background": "#202020", // 点击右下角设置按钮菜单项的背景颜色
+    "menu.foreground": "#eaeff3", // 点击右下角设置按钮菜单项的前景颜色
+    "button.background": "#2186ee", // 按钮背景色 设置界面有按钮
+    "editorCursor.foreground": "#e0f7f4", // 编辑器光标颜色
+    "activityBar.background": "#2c2c2c", // 活动栏背景色。活动栏显示在最左侧或最右侧，并允许在侧边栏的视图间切换。
+    "sideBar.background": "#1b1b1b", // 侧边栏背景色。侧边栏是资源管理器和搜索等视图的容器。
+    "editorLineNumber.activeForeground": "#2186ee", // 编辑器活动行号的颜色
+    "editorLineNumber.foreground": "#f6f6f0", // 编辑器行号的颜色。
+    "editorIndentGuide.background": "#464741", // 编辑器缩进参考线的颜色。
+    "editorGroup.border": "#c3c3c3",
+    "peekView.border": "#6690fa",
+    "statusBar.background": "#6690fa",
+    "activityBar.foreground": "#ffffff", // 活动栏项在活动时的前景色。活动栏显示在最左侧或最右侧，并允许在侧边栏的视图间切换。
+    "activityBarBadge.background": "#2186ee", // 活动通知徽章背景色。活动栏显示在最左侧或最右侧，并允许在侧边栏的视图间切换。
+    "editorHoverWidget.background": "#2c2c2c", // 编辑器悬停提示的背景颜色
+    "list.highlightForeground": "#f8f8f2", // 在列表或树中搜索时，其中匹配内容的高亮颜色
+    "dropdown.listBackground": "#565656", // 下拉列表背景色。
+    "list.activeSelectionBackground": "#75715E", // 已选项在列表或树活动时的背景颜色。活动的列表或树具有键盘焦点，非活动的没有。
+    "quickInputList.focusBackground": "#414339", // 焦点项目的快速选择器背景色
+    "list.inactiveSelectionBackground": "#414339", // 已选项在列表或树非活动时的背景颜色。活动的列表或树具有键盘焦点，非活动的没有。
+    "list.hoverBackground": "#3e3d32", // 使用鼠标移动项目时，列表或树的背景颜色。
+    "list.dropBackground": "#414339", // 使用鼠标移动项目时，列表或树进行拖放的背景颜色。
+    "selection.background": "#878b9180", //工作台所选文本的背景颜色(例如输入字段或文本区域)。注意，本设置不适用于编辑器。
+    "editor.selectionHighlightBackground": "#575b6180", // 具有与所选项相关内容的区域的颜色。颜色必须透明，以免隐藏下面的修饰效果。
+    "editor.wordHighlightBackground": "#4a4a7680", // 读取访问期间符号的背景色，例如读取变量时。颜色必须透明，以免隐藏下面的修饰效果。
+    "editor.wordHighlightStrongBackground": "#6a6a9680", // 写入访问过程中符号的背景色，例如写入变量时。颜色必须透明，以免隐藏下面的修饰效果。
+    "editorWhitespace.foreground": "#464741", // 编辑器中空白字符的颜色
+    "editorIndentGuide.activeBackground": "#767771", // 编辑器活动缩进参考线的颜色。
+    "editorGroupHeader.tabsBackground": "#2c2c2c", // 启用选项卡时编辑器组标题的背景颜色。编辑器组是编辑器的容器。
+    "editorGroup.dropBackground": "#41433980", // 拖动编辑器时的背景颜色。此颜色应有透明度，以便编辑器内容能透过背景。
+    "widget.shadow": "#00000098", // 编辑器内小组件(如查找/替换)的阴影颜色
+    "progressBar.background": "#75715E", // 表示长时间操作的进度条的背景色。
+    "badge.background": "#75715E", // Badge 背景色。Badge 是小型的信息标签，如表示搜索结果数量的标签。
+    "badge.foreground": "#f8f8f2", // Badge 前景色。Badge 是小型的信息标签，如表示搜索结果数量的标签。
+    "panel.border": "#414339", // 将面板与编辑器隔开的边框的颜色。面板显示在编辑区域下方，包含输出和集成终端等视图。
+    "settings.focusedRowBackground": "#4143395A", // 聚焦时设置行的背景色。
+    "titleBar.activeBackground": "#2c2c2c", // 窗口处于活动状态时的标题栏背景色。
+    "statusBar.noFolderBackground": "#414339", // 没有打开文件夹时状态栏的背景色。状态栏显示在窗口底部。
+    "statusBar.debuggingBackground": "#75715E", // 调试程序时状态栏的背景色。状态栏显示在窗口底部
+    "statusBarItem.remoteBackground": "#AC6218", // 状态栏上远程指示器的背景色。
+    "ports.iconRunningProcessForeground": "#ccccc7", // 具有关联的正在运行的进程的端口图标颜色。
+    "sideBarSectionHeader.background": "#272822", // 侧边栏部分标题背景色。此侧边栏是资源管理器和搜索等视图的容器。侧边栏部分是在侧边栏中嵌套的视图。
+    "pickerGroup.foreground": "#75715E", // 快速选取器分组标签的颜色。
+    "input.background": "#414339", // 输入框背景色。
+    "inputOption.activeBorder": "#75715E", // 输入字段中已激活选项的边框颜色。
+    "focusBorder": "#75715E", // 焦点元素的整体边框颜色。此颜色仅在不被其他组件覆盖时适用。
+    "editorWidget.background": "#2c2c2c", // 编辑器组件(如查找/替换)背景颜色。
+    "debugToolBar.background": "#2c2c2c", // 调试工具栏背景颜色。
+    "diffEditor.insertedTextBackground": "#4b661680", // 已插入的文本的背景色。颜色必须透明，以免隐藏下面的修饰效果。
+    "diffEditor.removedTextBackground": "#90274A70", // 已删除的文本的背景色。颜色必须透明，以免隐藏下面的修饰效果。
+    "inputValidation.errorBackground": "#90274A", // 输入验证结果为错误级别时的背景色
+    "inputValidation.errorBorder": "#f92672", // 严重性为错误时输入验证的边框颜色。
+    "inputValidation.warningBackground": "#848528", // 严重性为警告时输入验证的背景色。
+    "inputValidation.warningBorder": "#e2e22e", // 严重性为警告时输入验证的边框颜色。
+    "inputValidation.infoBackground": "#546190", // 输入验证结果为信息级别时的背景色。
+    "inputValidation.infoBorder": "#819aff", // 严重性为信息时输入验证的边框颜色。
+    "editorHoverWidget.border": "#75715E", // 光标悬停时编辑器的边框颜色。
+    "editorSuggestWidget.background": "#272822", // 建议小组件的背景色。
+    "editorSuggestWidget.border": "#75715E", // 建议小组件的边框颜色。
+    "peekViewEditor.background": "#272822", // 速览视图编辑器背景色。
+    "peekViewResult.background": "#2c2c2c", // 速览视图结果列表背景色。
+    "peekViewTitle.background": "#2c2c2c", // 速览视图标题区域背景颜色。
+    "peekViewResult.selectionBackground": "#414339", // 速览视图结果列表中所选条目的背景色。
+    "peekViewResult.matchHighlightBackground": "#75715E", // 在速览视图结果列表中匹配突出显示颜色。
+    "peekViewEditor.matchHighlightBackground": "#75715E", // 在速览视图编辑器中匹配突出显示颜色。
+    "terminal.ansiBlack": "#333333", // 终端中的 ANSI 颜色“Black”。
+    "terminal.ansiRed": "#d10f1b", // 终端中的 ANSI 颜色“Red”。
+    "terminal.ansiGreen": "#54c600", // 终端中的 ANSI 颜色“Green”。
+    "terminal.ansiYellow": "#fbcc30", // 终端中的 ANSI 颜色“Yellow”。
+    "terminal.ansiBlue": "#3a6ff4", // 终端中的 ANSI 颜色“Blue”。
+    "terminal.ansiMagenta": "#8C6BC8", // 终端中的 ANSI 颜色“Magenta”。
+    "terminal.ansiCyan": "#56ADBC", // 终端中的 ANSI 颜色“Cyan”。
+    "terminal.ansiWhite": "#e3e3dd", // 终端中的 ANSI 颜色“White”。
+    "terminal.ansiBrightBlack": "#666666", // 终端中的 ANSI 颜色“BrightBlack”。
+    "terminal.ansiBrightRed": "#f92672", // 终端中的 ANSI 颜色“BrightRed”。
+    "terminal.ansiBrightGreen": "#A6E22E", // 终端中的 ANSI 颜色“BrightGreen”。
+    "terminal.ansiBrightYellow": "#e2e22e", // 终端中的 ANSI 颜色“BrightYellow”。
+    "terminal.ansiBrightBlue": "#819aff", // 终端中的 ANSI 颜色“BrightBlue”。
+    "terminal.ansiBrightMagenta": "#AE81FF", // 终端中的 ANSI 颜色“BrightMagenta”。
+    "terminal.ansiBrightCyan": "#66D9EF", // 终端中的 ANSI 颜色“BrightCyan”。
+    "terminal.ansiBrightWhite": "#f8f8f2", // 终端中的 ANSI 颜色“BrightWhite”。
+    "editor.selectionBackground": "#878b9180", // 编辑器所选内容的颜色。
+    "minimap.selectionHighlight": "#878b9180", // 编辑器选区在迷你地图中对应的标记颜色。
+    "activityBarBadge.foreground": "#ffffff",
+    "dropdown.background": "#141820",
+    "editorGutter.addedBackground": "#308E68",
+    "editorGutter.modifiedBackground": "#938464",
+    "foreground": "#818CA6",
+    "gitDecoration.ignoredResourceForeground": "#3D4D67",
+    "gitDecoration.modifiedResourceForeground": "#E3C18A",
+    "gitDecoration.untrackedResourceForeground": "#70CA8E",
+    "input.border": "#1A1F2E",
+    "input.foreground": "#818CA6",
+    "input.placeholderForeground": "#3D4D67",
+    "list.activeSelectionForeground": "#ffffff",
+    "list.focusBackground": "#3D4D67",
+    "list.inactiveSelectionForeground": "#D5D9E2",
+    "panel.background": "#1C212E",
+    "scrollbar.shadow": "#11141a11",
+    "scrollbarSlider.activeBackground": "#ffffff22",
+    "scrollbarSlider.background": "#ffffff11",
+    "scrollbarSlider.hoverBackground": "#ffffff22",
+    "sideBarTitle.foreground": "#f44747",
+    "statusBar.border": "#1A1F2E",
+    "statusBar.foreground": "#818CA6",
+    "tab.unfocusedInactiveForeground": "#818CA6",
+    "terminal.background": "#1C212E",
+    "titleBar.activeForeground": "#818CA6",
+    "titleBar.inactiveBackground": "#1C212E",
+    "titleBar.inactiveForeground": "#818CA6"
+  },
+  "tokenColors": [
+    {
+      "name": "Global settings",
+      "scope": "",
+      "settings": {
+        "foreground": "#97a7c8ff"
+      }
+    },
+    {
+      "name": "Comment",
+      "scope": "comment",
+      "settings": {
+        "foreground": "#506686"
+      }
+    },
+    {
+      "name": "String",
+      "scope": "string",
+      "settings": {
+        "foreground": "#f6f6f5"
+      }
+    },
+    {
+      "name": "Strings, Inherited Class",
+      "scope": "string.unquoted.html, string.quoted.double.js, string.quoted.single.html, constant.other.symbol, entity.other.inherited-class",
+      "settings": {
+        "foreground": "#B3D667"
+      }
+    },
+    {
+      "name": "String single quoted JS",
+      "scope": "string.quoted.single.js",
+      "settings": {
+        "foreground": "#70F49C"
+      }
+    },
+    {
+      "scope": "support.variable.dom.js",
+      "settings": {
+        "foreground": "#59f2f7"
+      }
+    },
+    {
+      "scope": "variable.other.constant.js, variable.other.constant.object.js, variable.other.constant.property.js",
+      "settings": {
+        "foreground": "#e9b684"
+      }
+    },
+    {
+      "name": "Number",
+      "scope": "constant.numeric",
+      "settings": {
+        "foreground": "#58b4ff"
+      }
+    },
+    {
+      "name": "Built-in constant",
+      "scope": "constant.language",
+      "settings": {
+        "foreground": "#FFE792"
+      }
+    },
+    {
+      "name": "User-defined constant",
+      "scope": "constant.character, constant.other",
+      "settings": {
+        "foreground": "#AC58FF"
+      }
+    },
+    {
+      "name": "Variable",
+      "scope": "variable",
+      "settings": {
+        "foreground": "#B7C6DA"
+      }
+    },
+    {
+      "name": "Keyword",
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#E95293"
+      }
+    },
+    {
+      "name": "Storage",
+      "scope": "storage",
+      "settings": {
+        "foreground": "#FF5BA2"
+      }
+    },
+    {
+      "name": "Storage type",
+      "scope": "storage.type",
+      "settings": {
+        "foreground": "#D59DF6"
+      }
+    },
+    {
+      "name": "Class name",
+      "scope": "entity.name.class",
+      "settings": {
+        "foreground": "#82C600"
+      }
+    },
+    {
+      "name": "Inherited class",
+      "scope": "entity.other.inherited-class",
+      "settings": {
+        "fontStyle": "italic underline",
+        "foreground": "#82C600"
+      }
+    },
+    {
+      "name": "Function argument",
+      "scope": "variable.parameter",
+      "settings": {
+        "foreground": "#85AC3A"
+      }
+    },
+    {
+      "name": "Tag name",
+      "scope": "entity.name.tag",
+      "settings": {
+        "foreground": "#E76572"
+      }
+    },
+    {
+      "name": "Tag attribute",
+      "scope": "entity.other.attribute-name, entity.other.attribute-name.class.css, string.quoted.double.json",
+      "settings": {
+        "foreground": "#EAB780"
+      }
+    },
+    {
+      "name": "Tag Other",
+      "scope": "meta.tag.other, entity.name.tag.style, entity.name.tag.script, meta.tag.block.script, source.js.embedded punctuation.definition.tag.html, source.css.embedded punctuation.definition.tag.html",
+      "settings": {
+        "foreground": "#E26674"
+      }
+    },
+    {
+      "name": "this",
+      "scope": "variable.language.this.js, variable.language.this.ts, entity.name.type",
+      "settings": {
+        "foreground": "#eab780"
+      }
+    },
+    {
+      "name": "HTML id attribute",
+      "scope": "entity.other.attribute-name.id.html",
+      "settings": {
+        "foreground": "#fffa9e"
+      }
+    },
+    {
+      "name": "JS function",
+      "scope": "entity.name.function.js, entity.name.function.method.js, entity.name.accessor.js, entity.name.class.js",
+      "settings": {
+        "foreground": "#71b1fe"
+      }
+    },
+    {
+      "name": "JS variable type",
+      "scope": "support.class.builtin.js, entity.name.type.class.js",
+      "settings": {
+        "foreground": "#fffa9e"
+      }
+    },
+    {
+      "name": "JS variable parameter",
+      "scope": "variable.parameter.js, constant.other.object.key.js, variable.other.readwrite.js, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js, meta.object-literal.key.js, meta.array.literal.js, meta.brace.round.js, punctuation.definition.block.js, meta.objectliteral.js",
+      "settings": {
+        "foreground": "#97a7c8"
+      }
+    },
+    {
+      "name": "JS variable parameter",
+      "scope": "constant.language.boolean.false.js, constant.language.boolean.true.js",
+      "settings": {
+        "foreground": "#eab780"
+      }
+    },
+    {
+      "name": "JS variable parameter",
+      "scope": "support.variable.property.dom.js, entity.name.type.new.js",
+      "settings": {
+        "foreground": "#e76572"
+      }
+    },
+    {
+      "name": "HTML Tags",
+      "scope": "punctuation.definition.tag.html, punctuation.definition.tag.begin, punctuation.definition.tag.end",
+      "settings": {
+        "foreground": "#E26674"
+      }
+    },
+    {
+      "name": "Tag Value",
+      "scope": "meta.tag string -source -punctuation, text source text meta.tag string -punctuation",
+      "settings": {
+        "foreground": "#82BAF2"
+      }
+    },
+    {
+      "name": "Meta Brace",
+      "scope": "punctuation.section.embedded -(source string source punctuation.section.embedded), meta.brace.erb.html",
+      "settings": {
+        "foreground": "#D0B344"
+      }
+    },
+    {
+      "name": "HTML ID",
+      "scope": "meta.toc-list.id",
+      "settings": {
+        "foreground": "#88F2AF"
+      }
+    },
+    {
+      "name": "HTML String",
+      "scope": "string.quoted.double.html",
+      "settings": {
+        "foreground": "#0ddbdb"
+      }
+    },
+    {
+      "name": "HTML Strings",
+      "scope": "punctuation.definition.string.begin.html, punctuation.definition.string.end.html, string.quoted.double.handlebars,string.quoted.single.html",
+      "settings": {
+        "foreground": "#6600ec"
+      }
+    },
+    {
+      "name": "CSS ID",
+      "scope": "entity.other.attribute-name.id",
+      "settings": {
+        "foreground": "#85AC3A"
+      }
+    },
+    {
+      "name": "CSS Property Name",
+      "scope": "support.type.property-name.css",
+      "settings": {
+        "foreground": "#4ff2f8"
+      }
+    },
+    {
+      "name": "CSS ID selector",
+      "scope": "entity.other.attribute-name.id.css",
+      "settings": {
+        "foreground": "#fffa9e"
+      }
+    },
+    {
+      "name": "CSS Hex Color",
+      "scope": "constant.other.color.rgb-value.hex.css",
+      "settings": {
+        "foreground": "#4ff2f8"
+      }
+    },
+    {
+      "name": "CSS Property Value",
+      "scope": "meta.property-group support.constant.property-value.css, meta.property-value support.constant.property-value.css",
+      "settings": {
+        "foreground": "#85AC3A"
+      }
+    },
+    {
+      "name": "Library function",
+      "scope": "support.function",
+      "settings": {
+        "foreground": "#71b1fe"
+      }
+    },
+    {
+      "name": "Library constant",
+      "scope": "support.constant",
+      "settings": {
+        "foreground": "#E76572"
+      }
+    },
+    {
+      "name": "Library class/type",
+      "scope": "support.type, support.class",
+      "settings": {
+        "foreground": "#4DB1D8"
+      }
+    },
+    {
+      "name": "Punctuation",
+      "scope": "punctuation.definition.string, punctuation.definition.variable, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array",
+      "settings": {
+        "foreground": "#d8d8d8"
+      }
+    },
+    {
+      "name": "Delimiters",
+      "scope": "none",
+      "settings": {
+        "foreground": "#d8d8d8"
+      }
+    },
+    {
+      "name": "Operators",
+      "scope": "keyword.operator",
+      "settings": {
+        "foreground": "#4FF2F8"
+      }
+    },
+    {
+      "name": "Keywords",
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#D59DF6"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": "variable, meta.selector.css",
+      "settings": {
+        "foreground": "#E26674"
+      }
+    },
+    {
+      "name": "Functions",
+      "scope": "entity.name.function, meta.require, support.function.any-method",
+      "settings": {
+        "foreground": "#7cafc2"
+      }
+    },
+    {
+      "name": "Classes",
+      "scope": "support.class, entity.name.class, entity.name.type.class",
+      "settings": {
+        "foreground": "#E76572"
+      }
+    },
+    {
+      "name": "Classes",
+      "scope": "meta.class",
+      "settings": {
+        "foreground": "#f8f8f8"
+      }
+    },
+    {
+      "name": "Methods",
+      "scope": "keyword.other.special-method",
+      "settings": {
+        "foreground": "#7cafc2"
+      }
+    },
+    {
+      "name": "Storage",
+      "scope": "storage",
+      "settings": {
+        "foreground": "#ba8baf"
+      }
+    },
+    {
+      "name": "Integers",
+      "scope": "constant.numeric",
+      "settings": {
+        "foreground": "#dc9656"
+      }
+    },
+    {
+      "name": "Floats",
+      "scope": "none",
+      "settings": {
+        "foreground": "#dc9656"
+      }
+    },
+    {
+      "name": "Boolean",
+      "scope": "none",
+      "settings": {
+        "foreground": "#dc9656"
+      }
+    },
+    {
+      "name": "Constants",
+      "scope": "constant",
+      "settings": {
+        "foreground": "#dc9656"
+      }
+    },
+    {
+      "name": "Invalid deprecated",
+      "scope": "invalid.deprecated",
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "name": "diff.header",
+      "scope": "meta.diff, meta.diff.header",
+      "settings": {
+        "foreground": "#655c2d"
+      }
+    },
+    {
+      "name": "diff.deleted",
+      "scope": "markup.deleted",
+      "settings": {
+        "foreground": "#FF5BA2"
+      }
+    },
+    {
+      "name": "diff.inserted",
+      "scope": "markup.inserted",
+      "settings": {
+        "foreground": "#82C600"
+      }
+    },
+    {
+      "name": "diff.changed",
+      "scope": "markup.changed",
+      "settings": {
+        "foreground": "#ffff63"
+      }
+    },
+    {
+      "scope": "entity.name.filename.find-in-files",
+      "settings": {
+        "foreground": "#ffff63"
+      }
+    },
+    {
+      "scope": "token.info-token",
+      "settings": {
+        "foreground": "#6796e6"
+      }
+    },
+    {
+      "scope": "token.warn-token",
+      "settings": {
+        "foreground": "#cd9731"
+      }
+    },
+    {
+      "scope": "token.error-token",
+      "settings": {
+        "foreground": "#f44747"
+      }
+    },
+    {
+      "scope": "token.debug-token",
+      "settings": {
+        "foreground": "#b267e6"
+      }
+    },
+    {
+      // Markdown Starts Here!
+      "scope": "entity.name.section.markdown",
+      "settings": {
+        "foreground": "#EF596F"
+      }
+    },
+    {
+      "scope": "punctuation.definition.heading.markdown",
+      "settings": {
+        "foreground": "#E76572"
+      }
+    },
+    {
+      "scope": "punctuation.definition.list.begin.markdown",
+      "settings": {
+        "foreground": "#E5C07B"
+      }
+    },
+    {
+      "scope": ["punctuation.definition.bold.markdown", "punctuation.definition.italic.markdown", "punctuation.definition.underline.markdown"],
+      "settings": {
+        "foreground": "#E5C07B"
+      }
+    },
+    {
+      "scope": "markup.inline.raw.markdown",
+      "settings": {
+        "foreground": "#89CA78"
+      }
+    },
+    {
+      "scope": "markup.inline.raw.string.markdown",
+      "settings": {
+        "foreground": "#70ca8e"
+      }
+    },
+    {
+      "scope": "punctuation.definition.raw.markdown",
+      "settings": {
+        "foreground": "#E5C07B"
+      }
+    },
+    {
+      "scope": "punctuation.definition.list.markdown",
+      "settings": {
+        "foreground": "#E5C07B"
+      }
+    },
+    {
+      "scope": "punctuation.definition.metadata.markdown",
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "scope": "markup.underline.link.markdown,markup.underline.link.image.markdown",
+      "settings": {
+        "foreground": "#56A3B1"
+      }
+    },
+    {
+      "scope": "string.other.link.title.markdown,string.other.link.description.markdown",
+      "settings": {
+        "foreground": "#3bb3e2"
+      }
+    },
+    {
+      "scope": "markup.quote.markdown",
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "scope": "markup.bold.markdown",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#c59164"
+      }
+    },
+    {
+      "scope": "markup.italic.markdown",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#c59164"
+      }
+    },
+    {
+      "scope": "markup.underline.markdown",
+      "settings": {
+        "fontStyle": "underline",
+        "foreground": "#c59164"
+      }
+    },
+    {
+      "scope": ["punctuation.definition.string.begin.markdown", "punctuation.definition.string.end.markdown", "punctuation.definition.metadata.markdown"],
+      "settings": {
+        "foreground": "#E5C07B"
+      }
+    },
+    {
+      "scope": ["beginning.punctuation.definition.list.markdown"],
+      "settings": {
+        "foreground": "#EF596F"
+      }
+    },
+    {
+      "scope": ["markup.heading.setext.1.markdown", "markup.heading.setext.2.markdown"],
+      "settings": {
+        "foreground": "#EF596F"
+      }
+    },
+    {
+      "scope": ["fenced_code.block.language", "markup.raw.inner.restructuredtext", "markup.fenced_code.block.markdown punctuation.definition.markdown"],
+      "settings": {
+        "foreground": "#3bb3e2"
+      }
+    },
+    {
+      "scope": ["text.html.markdown string.unquoted.plain.out.yaml"],
+      "settings": {
+        "foreground": "#506686"
+      }
+    },
+    {
+      "scope": ["text.html.markdown entity.name.tag.yaml"],
+      "settings": {
+        "foreground": "#97a7c8"
+      }
+    }
+  ]
+}
